@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "./node_modules/.bin/vite build",
+    "build": "chmod +x ./node_modules/.bin/vite && ./node_modules/.bin/vite build",
     "start": "serve -s dist"
   },
   "dependencies": {
