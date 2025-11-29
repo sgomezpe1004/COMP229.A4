@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home.jsx';
 import Layout from './components/Layout.jsx';
 import Contact from './src/contact.jsx';
+import About from './src/about.jsx';
 import Education from './src/education.jsx';
 import Project from './src/project.jsx';
 import Services from './src/services.jsx';
@@ -20,6 +21,7 @@ const MainRouter = () => {
         <Route path="/education" element={<Education />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
