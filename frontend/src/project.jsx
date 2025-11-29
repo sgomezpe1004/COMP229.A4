@@ -209,7 +209,7 @@ export default function Project() {
                 >
                   <SecurityIcon color="warning" />
                   <Typography variant="caption" sx={{ color: 'warning.dark', fontWeight: 500 }}>
-                    El sitio web de origen bloquea la incrustación por motivos de seguridad (X-Frame-Options). Por favor, usa el botón "Abrir en Pestaña Nueva" para ver la demo.
+                    The source website blocks embedding for security reasons (X-Frame-Options). Please use the "Open in New Tab" button to view the demo.
                   </Typography>
                 </Stack>
 
