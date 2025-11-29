@@ -22,7 +22,7 @@ import {
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE_URL = 'http://localhost:3005/api';
+const API_URL = "https://comp229-a4.onrender.com/api";
 
 export default function Profile() {
   const navigate = useNavigate();
@@ -44,7 +44,7 @@ export default function Profile() {
         return;
       }
 
-      const response = await fetch(`${API_BASE_URL}/users/profile`, {
+      const response = await fetch(`${API_URL}/users/profile`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
 

@@ -13,7 +13,7 @@ import {
 import { Email as EmailIcon, Lock as LockIcon } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3005/api';
+const API_URL = "https://comp229-a4.onrender.com/api";
 
 export default function Login() {
   const navigate = useNavigate();

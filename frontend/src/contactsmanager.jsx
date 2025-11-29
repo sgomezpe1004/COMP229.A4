@@ -31,7 +31,7 @@ export default function ContactsManager() {
   const [selectedIds, setSelectedIds] = useState([]);
 
   const token = localStorage.getItem("authToken");
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3005/api';
+  const API_URL = "https://comp229-a4.onrender.com/api";
   
   const fetchContacts = async () => {
     try {
