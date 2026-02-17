@@ -1,0 +1,25 @@
+{
+  "name": "mern_frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "chmod +x ./node_modules/.bin/vite && ./node_modules/.bin/vite build",
+    "start": "serve -s dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.66.1",
+    "react-router-dom": "^6.17.0",
+    "@mui/material": "^7.3.5",
+    "@mui/icons-material": "^7.3.5",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12",
+    "@vitejs/plugin-react": "^5.0.4"
+  }
+}
